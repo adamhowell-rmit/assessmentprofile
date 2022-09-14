@@ -7,6 +7,10 @@
     position: sticky;
     top: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -109,6 +113,11 @@
     font-size: 2rem;
     margin-bottom: 40px;
 }
+#interest{
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px
+}
 
 /* Ideal Job Section */
 
@@ -123,6 +132,11 @@
     font-family: century;
     font-size: 2rem;
     margin-bottom: 40px;
+}
+#idealjob{
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px
 }
 
 /* Personal Profile Section */
@@ -174,16 +188,26 @@
 
 #personalprofile h1{
     margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 #personalprofile h2{
-    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -420px;
     text-align: center;
     border: 4px solid black;
     font-family: century;
     font-size: 2rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
+#personalprofile p{    
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px
+}
+
 
 /* Project Idea Section */
 #project h1{
@@ -197,14 +221,22 @@
     font-family: century;
     font-size: 2rem;
     margin-bottom: 40px;
+
 }
+#project {
+    display: flex;
+    box-sizing: border-box;
+    padding: 50px
+}
+
 #project p{
     margin-bottom: 200px;
 }
 
 /* Website Tag Section */
+
 #tag p{
     text-align: center;
     color: darkgray;
-
 }
+
