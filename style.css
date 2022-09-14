@@ -132,6 +132,7 @@
 }
 
 #piepic img{
+    margin-left: 70px;
     width: 600px;
     height: 300px;
     image-rendering: auto;
@@ -139,6 +140,36 @@
     border: 5px solid black;
 }
 
+#briggs {
+    display: flex;
+}
+
+#briggs img{
+    margin-left: 825px;
+    width: 225px;
+    height: 500px;
+    image-rendering: auto;
+    margin-right: 20px;
+    position: relative;
+    top: -310px;
+    border: 5px solid black;
+    
+}
+
+#big5 {
+    display: flex;
+}
+
+#big5 img{
+    margin-left: 1200px;
+    width: 600px;
+    height: 150px;
+    margin-right: 20px;
+    position: relative;
+    top: -770px;
+    border: 5px solid black;
+    
+}
 
 
 #personalprofile h1{
